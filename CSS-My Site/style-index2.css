@@ -1,0 +1,61 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+body{
+    text-align: center
+}
+.menu{
+    background-color: #e4f9f5;
+    position: relative;
+    height: 140px;
+}
+.imgheader{
+    top: 30px;
+    left: 160px;
+    position: absolute;
+}
+nav{
+    position: absolute;
+    top: 60px;
+    right: 160px;
+}
+a{
+    font-family: 'Outfit', sans-serif;
+    font-size: 1.3em;
+    font-weight: 300;
+    color: #4AB19A;
+    text-decoration: none;
+    margin: 30px;
+}
+a:hover{
+    color: #21564B;
+    transition: .3s;
+}
+.top-container{
+    position: relative;
+    background-color: #e4f9f5;
+}
+.top-cloud{
+    position: absolute;
+    top: 75px;
+    right: 290px;
+}
+.bottom-cloud{
+    position: absolute;
+    top: 190px;
+    left: 290px;
+}
+div> h1{
+    font-weight: normal;
+    color: #4AB19A;
+    font-size: 3.5em;
+    font-family: 'Dancing Script', cursive;
+    padding-top: 100px;
+}
+div > p{
+    color: #4AB19A;
+    font-size: 1.2em;
+    font-family: 'Outfit', sans-serif;
+    padding: 30px;
+}
