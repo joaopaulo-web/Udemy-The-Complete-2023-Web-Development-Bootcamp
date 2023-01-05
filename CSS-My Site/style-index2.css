@@ -11,9 +11,19 @@ body{
     height: 140px;
 }
 .imgheader{
+    width: 80px;
+    top: 30px;
+    left: 0px;
+    position: relative;
+}
+.white-circle{
+    border-radius: 50%;
+    position: absolute;
     top: 30px;
     left: 160px;
-    position: absolute;
+    height: 100px;
+    width: 100px;
+    background-color: white;
 }
 nav{
     position: absolute;
@@ -55,7 +65,43 @@ div> h1{
 }
 div > p{
     color: #4AB19A;
-    font-size: 1.2em;
+    font-size: 1.5em;
     font-family: 'Outfit', sans-serif;
-    padding: 30px;
+    padding-top: 30px;
+}
+.mid-container > h1{
+    padding-top: 200px;
+    font-weight: 250;
+    font-family: 'Outfit', sans-serif;
+}
+.mid-container > p{
+    color: #545454;
+    padding-top: 40px;
+}
+.oqfazer{
+    position: relative;
+}
+.oqfazer > h1{
+    padding-top: 200px;
+    font-weight: 250;
+    font-family: 'Outfit', sans-serif;
+}
+.oqfazer{
+    position: relative;
+}
+.intro2-right >h3 {
+    padding-top: 50px;
+    right: 200px;
+    position: absolute;
+    font-weight: 600;
+    color:#45B29A;
+    font-size: 1.8em;
+    font-family: 'Outfit', sans-serif;
+}
+.intro2-right > p {
+    font-size: 1.4em;
+    right: 121px;
+    position: absolute;
+    text-align: left;
+    padding-top: 110px;
 }
