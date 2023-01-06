@@ -59,7 +59,7 @@ a:hover{
 div> h1{
     font-weight: normal;
     color: #4AB19A;
-    font-size: 3.5em;
+    font-size: 4em;
     font-family: 'Dancing Script', cursive;
     padding-top: 100px;
 }
@@ -75,6 +75,7 @@ div > p{
     font-family: 'Outfit', sans-serif;
 }
 .mid-container > p{
+    font-size: 1.2em;
     color: #545454;
     padding-top: 40px;
 }
@@ -82,26 +83,81 @@ div > p{
     position: relative;
 }
 .oqfazer > h1{
+    font-size: 3em;
     padding-top: 200px;
-    font-weight: 250;
+    font-weight: 300;
     font-family: 'Outfit', sans-serif;
 }
 .oqfazer{
     position: relative;
 }
 .intro2-right >h3 {
-    padding-top: 50px;
-    right: 200px;
+    padding-top: 60px;
+    right: 120px;
     position: absolute;
     font-weight: 600;
     color:#45B29A;
-    font-size: 1.8em;
+    font-size: 1.7em;
     font-family: 'Outfit', sans-serif;
+    font-weight: 400;
 }
 .intro2-right > p {
-    font-size: 1.4em;
-    right: 121px;
+    color: #545454;
+    font-size: 1.2em;
+    right: 100px;
     position: absolute;
     text-align: left;
     padding-top: 110px;
+}
+.intro2-left{
+    position: relative;
+}
+.intro2-left >h3 {
+    padding-top: 260px;
+    left: 260px;
+    position: absolute;
+    font-weight: 600;
+    color:#45B29A;
+    font-size: 1.7em;
+    font-family: 'Outfit', sans-serif;
+    font-weight: 400;
+}
+.intro2-left > p {
+    padding-top: 310px;
+    color: #545454;
+    font-size: 1.2em;
+    left: 260px;
+    position: absolute;
+    text-align: left;
+}
+.bot-container{
+    position: relative;
+}
+.text-help > h1{
+    position: absolute;
+    top: 500px;
+    left: 450px;
+    font-size: 3em;
+    font-weight: 300;
+    font-family: 'Outfit', sans-serif;
+}
+.text-help > h3{
+    font-weight: normal;
+    position: absolute;
+    left: 450px;
+    top: 700px;
+    font-family: 'Outfit', sans-serif;
+    color: #45B29A;
+    font-size: 1.2em;
+}
+.text-help > p{
+    position: absolute;
+    top: 730px;
+    left: 420px;
+    color: #545454;
+    font-size: 1.2em;
+}
+.botao{
+    margin: 20px;
+    padding: 10px;
 }
