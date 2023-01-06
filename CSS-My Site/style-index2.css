@@ -69,3 +69,7 @@ div > p{
     font-family: 'Outfit', sans-serif;
     padding-top: 30px;
 }
+.profile > img{
+    padding-top: 90px;
+    width: 240px;
+}
