@@ -71,5 +71,37 @@ div > p{
 }
 .profile > img{
     padding-top: 90px;
+    padding-bottom: 30px;
     width: 240px;
+}
+.profile{
+    padding-bottom: 200px;
+}
+.profile > h2{
+    font-weight: 300;
+    font-size: 2.5em;
+    font-family: 'Outfit', sans-serif;
+    color: #4AB19A;
+}
+.profile > p{
+    font-family: serif;
+    color: #545454;
+}
+.skills{
+    position: relative;
+}
+.skills > h2{
+    font-weight: 400;
+    font-size: 2.5em;
+    font-family: 'Outfit', sans-serif;
+    color: #4AB19A;
+}
+
+.skill-row-right > .skill1{
+    padding-right: 500px;
+    width: 200px;
+}
+.skill-row-left > .skill2{
+    padding-left: 500px;
+    width: 200px;
 }
