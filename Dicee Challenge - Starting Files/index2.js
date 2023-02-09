@@ -1,22 +1,22 @@
-var randomNumber1 = Math.floor(Math.random() * 6) + 1
+let randomNumber1 = Math.floor(Math.random() * 6) + 1
 
-var randomDiceImage = "dice" + randomNumber1 + ".png"
+let randomDiceImage = "dice" + randomNumber1 + ".png"
 
-var randomImageSource = "images/" + randomDiceImage
+let randomImageSource = "images/" + randomDiceImage
 
-var image1 = document.querySelectorAll("img")[0]
+let image1 = document.querySelectorAll("img")[0]
 
 image1.setAttribute("src", randomImageSource)
 
 // Imagem 1 Ok
 
-var randomNumber2 = Math.floor(Math.random() * 6) + 1
+let randomNumber2 = Math.floor(Math.random() * 6) + 1
 
-var randomDiceImage2 = "dice" + randomNumber2 + ".png"
+let randomDiceImage2 = "dice" + randomNumber2 + ".png"
 
-var randomDiceSource2 = "images/" + randomDiceImage2
+let randomDiceSource2 = "images/" + randomDiceImage2
 
-var image2 = document.querySelectorAll("img")[1]
+let image2 = document.querySelectorAll("img")[1]
 
 image2.setAttribute("src", randomDiceSource2)
 
