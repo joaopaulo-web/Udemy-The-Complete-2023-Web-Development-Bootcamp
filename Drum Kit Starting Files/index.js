@@ -46,21 +46,3 @@ for(i = 0; i < document.querySelectorAll(".drum").length; i++){
     });
 
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-//function handleClick(){
- //   var audio = new Audio("sounds/tom-1.mp3")
- //   audio.play()
-//}
